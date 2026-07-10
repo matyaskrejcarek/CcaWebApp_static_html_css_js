@@ -19,9 +19,3 @@ Odstraněno:
 - moje skupiny / skupiny
 - orga-dashboard
 - přihlašování přes WCA
-
-## Hosting
-
-Nahraj celý obsah této složky na statický hosting. Není potřeba .NET, databáze ani build krok.
-
-Soutěže se načítají přímo v prohlížeči přes `fetch()` z WCA API. Pokud by konkrétní hosting nebo prohlížeč blokoval volání na WCA API, bude potřeba jednoduchá proxy/serverless funkce, ale samotný web je připravený jako čistá statická stránka.
